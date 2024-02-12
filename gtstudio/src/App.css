@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 16px !important;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff !important;
+}
+.bgcolor {
+  background-color: #7eb500 !important;
+  padding: 10px;
+}
+.logo {
+  width: 10% !important;
+}
+
+.bannerimage {
+  width: 100%;
+  padding: 0px;
+}
+
+.m-20 {
+  margin-top: 20px !important;
+}
+.m-40 {
+  margin-top: calc(50px + 35px);
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+
+/* Heading */
+.heading {
+  color: #7eb500;
+  position: relative !important;
+  margin-top: 15px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase !important;
+}
+
+.heading::after {
+  content: " ";
+  position: absolute !important;
+  left: 10%;
+  right: 45%;
+  bottom: 0;
+  border-bottom: 3px solid #ec0606 !important;
+}
+
+.subheading {
+  color: #7eb500;
+  position: relative !important;
+  margin-top: 15px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Coursel */
+.maincarousel img {
+  background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+}
+
+/* Card  */
+
+.developer {
+  padding: 15px;
+}
+.developerheading {
+  font-size: 36px !important;
+  color: #7eb500;
+  margin-bottom: 20px;
+}
+.cardbackground {
+  background-color: #7eb500 !important;
+  color: #ffffff !important;
+  margin-bottom: 30px !important ;
+}
+
+
+
+.cardbackground:hover {
+  background-color: #000000 !important;
+  color: #faebd7 !important;
+  /* box-shadow: 5px 10px #7eb500; */
+}
+.developercardimg {
+  border-radius: 50% !important;
+  padding: 10px;
+  height: 300px;
+}
+
+.developercontent {
+  border-top: 1px solid #ffffff;
+}
+
+
+
+
+/* About US */
+
+.about-session {
+  padding: 15px;
+}
+
+.aboutsesion-content {
+  font-size: 18px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.about-img {
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.highligth {
+  color: #7eb500 !important;
+  white-space: nowrap !important;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+/* Course page */
+.recommended {
+  height: 100% !important;
+  position: relative !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.recommendedheading {
+  position: absolute !important;
+  top: 45%;
+  left: 45%;
+  text-decoration: none;
+  color: #ec0606;
+  font-size: 40px !important;
+  font-weight: 800;
+  white-space: nowrap !important;
+}
+
+.coursedetailbackground:hover {
+  border-image: linear-gradient(#7eb500, #ec0606) 20 !important;
+  border-width: 4px !important;
+  border-style: solid !important;
+
+  transition: linear 0.5s;
+}
+
+.Coursesection {
+  background-color: #000000 !important;
+  color: #ffffff;
+  height: 100%;
+  padding: 0px !important;
+}
+.coursecontent {
+  padding: 30px !important;
+}
+
+.coursedetail {
+  margin-bottom: 30px;
+  background-color: #000000;
+}
+
+.coursedetailbackground {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border: 1px solid #ffffff !important;
+  height: 300px !important;
+}
+
+/* Footer Detail */
+
+.footerdetail {
+  margin-top: 30px !important;
+  text-align: center;
+}
+
+.footerimage {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.footerlink {
+  background-color: #000000 !important;
+  height: 50px !important;
+  margin-top: 20px;
+  color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.footericon {
+  color: #ffffff !important;
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.footericon :hover {
+ 
+  transition: 0.5s;
+  transform: rotate(360deg);
+}
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 50px !important;
+  }
+
+  .m-40 {
+    margin-top: calc(50px + 0px);
+  }
+  
+  .maincarousel img {
+
+    height: 400px !important
+  }
+
+  .developerheading {
+    font-size: 36px !important;
+    color: #7eb500;
+    margin-bottom: 20px !important;
+  }
+
+ .recommendedheading
+ {
+  left: 28% !important;
+ }
+
+  .about-session-mobileview {
+    flex-direction: column-reverse;
+  }
+}
